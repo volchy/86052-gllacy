@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+    outline: 1px solid red;
+}
+
+body {
+    font-size: 16px;
+    line-height: 2em;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #849d8f;
+}
+
+h1 {
+   margin:0;
+   text-align: left;
+   font-size: 35px;
+   line-height: 35px;
+   font-weight: bold;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+
+.logo, .main-navigation, .user-block{
+  display: inline-block;
+  vertical-align: top;
+  min-height: 70px;
+}
+
+.logo {
+  width: 154px;
+}
+
+.main-navigation {
+  width: 732px;
+}
+
+.user-block {
+  width: 260px;
+}
+
+.question, .enter, .basket {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 14px;
+  /* добавить высоту */
+}
+
+.range, .question-block, .enter-block, .basket-block {
+  display: none;
+}
+
+.hat {
+  width: 1106px;
+  margin-bottom: 30px;
+}
+
+.operatingMode {
+display: block;
+width: 180px;
+height: 57px;
+text-align: right;
+float: right;
+}
+
+.operatingMode span {
+  font-size: 14px;
+}
+
+.operatingMode strong {
+  font-size: 22px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+}
+
+.settings {
+  margin-bottom: 46px;
+}
+
+.sorting, .price, .fat, .filler, .btn {
+  display: inline-block;
+}
+
+.sorting, .sorting-block {
+  width: 194px;
+  margin-right: 17px;
+}
+
+.price, .price-block {
+  width: 220px;
+  margin-right: 17px;
+}
+
+.fat, .fat-block {
+  width: 415px;
+}
+
+.filler, .filler-block {
+  width: 703px;
+  margin-right: 14px;
+}
+
+.btn {
+  width: 146px;
+}
+
+.sorting-block, .price-block, .fat-block, .filler-block, .btn {
+  background-color: #aabab0;
+} 
+
+
+
+.iceCreamCard {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  width: 267.75px;
+}
+
+.iceCreamCard:nth-child(4n) {
+  margin-right: 0;
+}
+
+.iceCreamCard span {
+  font-size: 45px;
+}
+
+.nameCard {
+  font-size: 16px;
+}
+
+.hits, .advantages {
+  margin-bottom: 40px;
+}
+
+.footer-social, .footer-info, .footer-copyright{
+  display: inline-block;
+  vertical-align: top;
+  min-height: 70px;
+}
+
+.footer-social {
+  width: 400px;
+}
+
+.footer-info {
+  width: 555px;
+  font-size: 13px;
+}
+
+.footer-copyright {
+  width: 190px;
+  font-size: 12px;
+}

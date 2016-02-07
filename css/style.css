@@ -1,21 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+*{
+    outline: 1px solid red;
+}
+
 body {
     font-size: 16px;
     line-height: 2em;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #849d8f;
+}
+
+h1, h2, h3 {
+    margin:0;
 }
 
 h1 {
+   text-align: center;
    font-size: 60px;
    line-height: 60px;
-   color: white;
    font-weight: bold;
+   padding-top: 347px;
+   padding-bottom: 30px;
 }
 
 h2 {
    font-size: 35px;
    line-height: 2em;
-   color: white;
    font-weight: bold;
 }
+
+h3 {
+   font-size: 24px;
+   
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+p {
+  font-size: 18px;
+  
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+
+.logo, .main-navigation, .user-block{
+  display: inline-block;
+  vertical-align: top;
+  min-height: 70px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.main-navigation {
+  width: 736px;
+}
+
+.user-block {
+  width: 260px;
+}
+
+.question, .enter, .basket{
+   
+  text-transform:uppercase;
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 14px;/* добавить высоту */
+}
+
+.range {
+  display: none;
+}
+
+.operatingMode {
+display: block;
+width: 180px;
+height: 57px;
+text-align: right;
+float: right;
+}
+
+.operatingMode span {
+  font-size: 14px;
+}
+
+.operatingMode strong {
+  font-size: 22px;
+}
+
+.greeting-list{
+  width: 1145px;
+  height: 468px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.giveBoth {
+  width: 280px;
+  height: 65px;
+  line-height: 2em;
+  font-size: 31px; 
+  text-align: center;
+  margin: 30px auto 40px;
+  background-color: #ee5e3e;
+}
+
+.raspberry, .chocolate{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 22px;
+  width:518px;
+  min-height: 228px;
+  margin-bottom: 37px;
+}
+
+.raspberry{
+    margin-right:25px;
+    background: url(../img/raspberry.png) no-repeat;
+}
+
+.chocolate{
+    background: url(../img/chocolate.png) no-repeat;
+}
+
+.btn {
+  float: right;
+  width: 165px;
+  height: 46px;
+  line-height: 2em;
+  font-size: 18px; 
+  text-align: center;
+  background-color: #ee5e3e;
+}
+
+.iceCreamCard {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 25px;
+  width: 267.75px;
+}
+
+.iceCreamCard:nth-child(4) {
+  margin-right: 0;
+}
+
+.iceCreamCard span {
+  font-size: 45px;
+}
+
+.nameCard {
+  font-size: 16px;
+}
+
+.hits, .advantages {
+  margin-bottom: 40px;
+}
+
+.advantages {
+  height: 320px;
+  color: #000000;
+}
+
+.advantages {
+  width: auto;
+  background: url(../img/waffle.jpg) ;
+}
+
+.left-advantages, .right-advantages {
+   display: inline-block;
+   font-size: 16px;
+   min-height: 175px;
+   width: 500px;
+}
+   
+.left-advantages {
+ margin-right: 86px;
+}
+
+.news, .e-mail {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 22px;
+  width:518px;
+  min-height: 220px;
+  margin-bottom: 40px;
+}
+
+.news {
+  margin-right: 25px;
+  background: url(../img/strawberry.png) no-repeat;
+}
+
+.e-mail {
+  background: url(../img/postcard.png) no-repeat;
+} 
+
+.news span {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+.news a {
+  font-size: 24px;
+  color: #353535;
+}
+
+.newsletter-form {
+  width: 368px;
+}
+
+.map {
+  
+  min-height: 429px;
+  background: url(../img/map.png) 50% no-repeat;
+  width: 100%;
+}
+
+.geo {
+  position: absolute;
+  left: 900px;
+}
+
+.shadow {
+  position: absolute;
+  left: 950px;
+}
+
+.contact-information {
+  float: right;
+  
+  width: 303px;
+  margin-top: 66px;
+  margin-right: 696px;
+  background-color: #ffffff;
+}
+
+.contact-information p {
+  font-size: 14px;
+  color: #343434;
+}
+
+.contact-information strong {
+  font-size: 18px;
+  color: #343434;
+}
+
+.feedback {
+  display: none;
+}
+
+.footer-social, .footer-info, .footer-copyright{
+  display: inline-block;
+  vertical-align: top;
+  min-height: 70px;
+}
+
+.footer-social {
+  width: 400px;
+}
+
+.footer-info {
+  width: 555px;
+  font-size: 13px;
+}
+
+.footer-copyright {
+  width: 190px;
+  font-size: 12px;
+}
+
