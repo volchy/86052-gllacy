@@ -4,8 +4,8 @@
     <meta charset="utf-8">
       <title>Мороженое с доставкой «Gllacy Shop»</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/mini-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin,cyrillic" rel="stylesheet" type="text/css">
   </head>
   <body>
     <input type="radio" id="btn-1" name="toggle" checked>
@@ -22,7 +22,7 @@
         </div><!--
      --><div class="main-navigation">
           <ul class="main-navigation-ul">
-            <li>
+            <li class="menu-item">
               <a href="#" class="catalog-menu">Каталог</a>
                 <div class="range">
                 <ul class="components">
@@ -44,10 +44,10 @@
                 </ul>
               </div>
             </li><!--
-            --><li>
+            --><li class="menu-item">
               <a href="#">Доставка и оплата</a>
             </li><!--
-            --><li>
+            --><li class="menu-item">
               <a href="#">О Компании</a>
             </li>       
           </ul> 
@@ -64,6 +64,7 @@
      --><div class="enter">
          <i class="icon icon-enter"></i>
           <span>Вход</span>
+          <div class="enter-block-cover">
           <div class="enter-block">
             <form class="Enter-form" action="https://echo.htmlacademy.ru" method="post">
               <input type="text" name="mail" value="" placeholder="Электронная почта">
@@ -81,12 +82,15 @@
               </ul>  
             </div>
           </div> 
+          </div>
         </div><!--
      --><div class="basket">
               <i class="icon icon-basket"></i>
            <span>Пусто</span>
+          <div class="basket-block-cover">
           <div class="basket-block">
             <!-- содержимое корзины -->
+          </div>
           </div>
             </div>
         </div>
@@ -94,7 +98,7 @@
     </header><!--
  --><div class="slider">
        <div class="operating-mode">
-          <span>С 10 до 20, ежедневно</span><br>
+          <span class="time">С 10 до 20, ежедневно</span>
           <strong>8 812 450-25-25</strong>
         </div>
           <div class="slide" id="slide1">
@@ -131,8 +135,8 @@
     </section>
     <section class="hits">
       <article class="ice-cream-card">
-        <img src="img/hit.png" class="hit" width="61" height="61" alt="ХИТ">
-          <img src="img/1.png" class="ice-footer" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+        <i class="hit"></i>
+        <img src="img/1.png" class="ice-footer" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
         <strong>310 ₽<span>/кг</span></strong>
         <a href="#" class="ice-link">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
          <div class="ice-cream-card-hover">
@@ -144,7 +148,7 @@
           </div>
       </article><!--
    --><article class="ice-cream-card">
-      <img src="img/hit.png" class="hit2" width="61" height="61" alt="ХИТ">
+      <i class="hit hit2"></i>
           <img src="img/2.png" class="ice-footer" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
       <strong>380 ₽<span>/кг</span></strong>
       <a href="#" class="ice-link">Сливочно-кофейное с кусочками шоколада</a>
@@ -157,7 +161,7 @@
           </div>
       </article><!--
    --><article class="ice-cream-card">
-      <img src="img/hit.png" class="hit3" width="61" height="61" alt="ХИТ">
+      <i class="hit hit3"></i>
           <img src="img/3.png" class="ice-footer" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
       <strong>355 ₽<span>/кг</span></strong>
         <a href="#" class="ice-link">Сливочно-клубничное с присыпкой из белого шоколада</a>
@@ -170,7 +174,7 @@
           </div>
       </article><!--
    --><article class="ice-cream-card">
-      <img src="img/hit.png" class="hit4" width="61" height="61" alt="ХИТ">
+      <i class="hit hit4"></i>
           <img src="img/4.png" class="ice-footer" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой">
       <strong>415 ₽<span>/кг</span></strong>
         <a href="#" class="ice-link">Сливочное крем-брюле с карамельной подливкой</a>

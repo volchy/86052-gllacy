@@ -5,6 +5,7 @@
       <title>Мороженое с доставкой «Gllacy Shop»</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin,cyrillic" rel="stylesheet" type="text/css">
   </head>
   <body>
   <div class="content-wrapper">
@@ -17,32 +18,13 @@
         </div><!--
      --><div class="main-navigation">
         <ul>
-          <li class="active">
+          <li class="active menu-item">
               <a href="#" class="catalog-menu active">Каталог</a>
-              <div class="range">
-                <ul>
-                  <li>
-                    <a href="#"><strong>Новинки</strong></a>
-                  </li>
-                  <li>
-                    <a href="#">Сливочное</a>
-                  </li> 
-                  <li>
-                    <a href="#">Щербеты</a>
-                  </li> 
-                  <li>
-                    <a href="#">Фруктовый лед</a>
-                  </li> 
-                  <li>
-                    <a href="#">Мелорин</a>
-                  </li> 
-                </ul>
-              </div>
             </li>
-          <li>
+          <li class="menu-item">
             <a href="#">Доставка и оплата</a>
           </li>
-          <li>
+          <li class="menu-item">
             <a href="#">О Компании</a>
           </li>       
         </ul> 
@@ -59,6 +41,7 @@
      --><div class="enter">
             <i class="icon icon-enter"></i>
           <span>Вход</span>
+          <div class="enter-block-cover">
           <div class="enter-block">
             <form class="Enter-form" action="https://echo.htmlacademy.ru" method="post">
               <input type="text" name="mail" value="" placeholder="Электронная почта">
@@ -76,14 +59,16 @@
               </ul>  
             </div>
           </div> 
+          </div> 
         </div><!--
      --><div class="basket">
           <i class="icon icon-basket"></i>
            <span>Пусто</span>
+          <div class="basket-block-cover">
           <div class="basket-block">
             <ul class="shoping-list">
               <li>
-                <img class="del" src="img/x.png" width="11" height="11" alt="x">
+                <i class="x"></i>
               </li>
               <li>
                 <img src="img/basket/micro-ice.png" class="miniice" alt="micro" width="33" height="33">
@@ -94,7 +79,7 @@
             </ul>
             <ul class="shoping-list">
               <li>
-                <img class="del" src="img/x.png" width="11" height="11" alt="x">
+                <i class="x"></i>
               </li>
               <li>
                 <img src="img/basket/micro-ice2.png" class="miniice" alt="miniice" width="33" height="33">
@@ -104,7 +89,8 @@
               <li>450 руб.</li>
             </ul>
             <strong>Итого: 750 руб.</strong>
-            <a class="btn-offer" href="#">Оформить заказ</a>
+            <button class="btn-offer">Оформить заказ</button>
+          </div>
           </div>
         </div> 
       </div>
@@ -116,16 +102,16 @@
           <li>
             <a href="#">Главная</a>
           </li>
-          <li>»</li>
+          <li></li>
           <li>
             <a href="#">Каталог</a>
           </li>
-          <li>»</li>
+          <li></li>
           <li class="active">Сливочное</li>
         </ul>
         <h1>Сливочное мороженое</h1>
           <div class="operating-mode catalog">
-            <span>С 10 до 20, ежедневно</span><br>
+            <span class="time">С 10 до 20, ежедневно</span>
             <strong>8 812 450-25-25</strong>
           </div>
        </div> 
@@ -340,7 +326,6 @@
             <a class="next" href="#next">Вперед</a>
       </div>
       </div>
-       <hr class="line">
     </div>
   </section>
 <footer class="container">
